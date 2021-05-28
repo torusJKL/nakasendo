@@ -90,7 +90,7 @@ class EmphemeralKeyPair{
     constructor(){}
     
     set K(val){this.#m_k = val;}
-    get R(){return this.#m_k;}
+    get K(){return this.#m_k;}
     
     set R(val){this.#m_r = val;}
     get R(){return this.#m_r;}    
