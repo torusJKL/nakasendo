@@ -19,7 +19,9 @@ class AsymKey{
         this.#m_PubKey = keyArr[0];
     }
     
-    
+    get privkey(){
+        return this.#m_PriKey; 
+    }
     
     get pubkey(){
         return this.#m_PubKey; 
